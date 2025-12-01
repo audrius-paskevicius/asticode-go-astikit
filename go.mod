@@ -1,3 +1,3 @@
-module github.com/asticode/go-astikit
+module github.com//audrius-paskevicius/asticode-go-astikit
 
 go 1.18
