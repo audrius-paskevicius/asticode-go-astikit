@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/asticode/go-astikit"
+	astikit "github.com/audrius-paskevicius/asticode-go-astikit"
 )
 
 func TestEvent(t *testing.T) {

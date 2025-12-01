@@ -15,7 +15,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/asticode/go-astikit"
+	astikit "github.com/audrius-paskevicius/asticode-go-astikit"
 )
 
 func NewKey(projectID int, path string) (int, error) {

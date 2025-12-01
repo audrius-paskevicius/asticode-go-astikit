@@ -263,7 +263,7 @@ func (w *BitsWriter) WriteN(i any, n int) error {
 }
 
 // BitsWriterBatch allows to chain multiple Write* calls and check for error only once
-// For more info see https://github.com/asticode/go-astikit/pull/6
+// For more info see https://github.com/audrius-paskevicius/asticode-go-astikit/pull/6
 type BitsWriterBatch struct {
 	err error
 	w   *BitsWriter
